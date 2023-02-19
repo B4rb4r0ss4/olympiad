@@ -42,8 +42,8 @@ typedef tree<pair<int, int>, null_type, greater<pair<int, int> >, rb_tree_tag, t
 #define fs first
 #define se second
 #define all(a) a.begin(),a.end()
-#define PB push_back()
-#define EB emplace_back()
+#define PB push_back
+#define EB emplace_back
 #define FOR(i, a, b) for(int i=(a); i<=(b); ++i)
 #define FORD(i, a, b) for(int i=(a); i>=(b); --i)
 const int MOD = 1e9+7;
